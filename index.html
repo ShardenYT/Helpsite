@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как подключиться к ShardLand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        ol {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #666;
+        }
+
+        .start-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .start-section button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .start-section button:hover {
+            background-color: #0056b3;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .donate-block {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .donate-block a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="start-section">
+            <h1>Добро пожаловать в ShardLand!</h1>
+            <button onclick="redirectToShop()">Донат Сайт</button>
+        </div>
+        <h1>Как подключиться к ShardLand</h1>
+        <p>Чтобы подключиться к серверу ShardLand в Minecraft, выполните следующие шаги:</p>
+        <ol>
+            <li>Запустите Minecraft Java Edition.</li>
+            <li>Нажмите на кнопку "Мультиплеер" в меню запуска.</li>
+            <li>Нажмите кнопку "Добавить сервер" или "Добавить новый сервер".</li>
+            <li>В поле "Имя сервера" введите "ShardLand".</li>
+            <li>В поле "Адрес сервера" введите "shardland.mwsrv.ru".</li>
+            <li>Нажмите "Готово" или "Добавить сервер".</li>
+            <li>Выберите сервер ShardLand из списка серверов и нажмите "Подключиться".</li>
+        </ol>
+        <div class="donate-block" id="donateBlock">
+            <p>Поддержите наш сервер, совершив покупку в магазине:</p>
+            <a href="http://shop.shardland.jwork.ru">Магазин ShardLand</a>
+        </div>
+    </div>
+    <footer><a href="https://shop.shardland.jwork.ru">ShardLand</a> © Все права защищены</footer>
+    <script>
+        function redirectToShop() {
+            window.location.href = 'https://shop.shardland.jwork.ru';
+        }
+    </script>
+</body>
+</html>
